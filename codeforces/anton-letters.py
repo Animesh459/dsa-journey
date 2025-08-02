@@ -5,8 +5,7 @@ elements = line[1:-1].split(", ")
 
 # Use a set to store only unique letters
 unique_letters = set()
-print(unique_letters)
-# Add each non-empty element to the set
+# Add each non-empty element to the set{a, b, c}
 for letter in elements:
     if letter:  # this skips empty strings like when input is "{}"
         unique_letters.add(letter)
