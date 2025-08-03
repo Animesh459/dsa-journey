@@ -21,3 +21,21 @@ print(w)
 # Step 3: Form teams
 for i in range(w):
     print(programmers[i], mathematicians[i], athletes[i])
+
+
+
+# Input
+# 7
+# 1 3 1 3 2 1 2
+#
+# Output
+# 2
+# 3 5 2
+# 6 7 4
+#
+# Input
+# 4
+# 2 1 1 2
+#
+# Output
+# 0
