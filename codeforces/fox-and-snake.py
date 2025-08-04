@@ -10,3 +10,31 @@ for i in range(n):
     else:
         # Even-numbered row after left-moving line: # is at the start
         print('#' + '.' * (m - 1))
+
+
+
+# Input
+# 3 3
+#
+# Output
+# ###
+# ..#
+# ###
+#
+# Input
+# 3 4
+#
+# Output
+# ####
+# ...#
+# ####
+#
+# Input
+# 5 3
+#
+# Output
+# ###
+# ..#
+# ###
+# #..
+# ###
