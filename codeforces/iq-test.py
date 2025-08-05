@@ -15,3 +15,19 @@ if len(even_indices) == 1:
     print(even_indices[0])
 else:
     print(odd_indices[0])
+
+
+
+# Input
+# 5
+# 2 4 7 8 10
+#
+# Output
+# 3
+#
+# Input
+# 4
+# 1 2 1 1
+#
+# Output
+# 2
