@@ -26,3 +26,12 @@ for j in range(c):
                 count += 1
 
 print(count)
+
+# Input
+# 3 4
+# S...
+# ....
+# ..S.
+#
+# Output
+# 8
