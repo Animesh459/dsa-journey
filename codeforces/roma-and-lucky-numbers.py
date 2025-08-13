@@ -23,6 +23,7 @@ print(ans)
 # Output
 # 3
 #
+
 # Input
 # 3 2
 # 447 44 77
