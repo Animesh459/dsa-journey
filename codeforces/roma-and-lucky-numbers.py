@@ -14,3 +14,18 @@ for num in numbers:
         ans += 1
 
 print(ans)
+
+
+# Input
+# 3 4
+# 1 2 4
+#
+# Output
+# 3
+#
+# Input
+# 3 2
+# 447 44 77
+#
+# Output
+# 2
