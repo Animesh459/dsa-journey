@@ -1,15 +1,14 @@
 import sys
 
 def main():
-    s = sys.stdin.readline().strip()
-    if not s:
-        return
-    # Print from last digit to first (least significant to most)
-    tails = ["-OOOO", "O-OOO", "OO-OO", "OOO-O", "OOOO-"]
-    for ch in reversed(s):
-        d = int(ch)
-        head = "O-|" if d < 5 else "-O|"
-        print(head + tails[d % 5])
+    pos = int(sys.stdin.readline())
+    for _ in range(3):
+        a, b = map(int, sys.stdin.readline().split())
+        if pos == a:
+            pos = b
+        elif pos == b:
+            pos = a
+    print(pos)
 
 if __name__ == "__main__":
     main()
