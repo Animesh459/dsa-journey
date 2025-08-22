@@ -19,13 +19,25 @@ def dragons():
     print("YES")
 
 
+
+
+if __name__ == "__main__":
+    dragons()
+
+
 # Example usage:
-# Input:
+
+# Input
 # 2 2
 # 1 99
 # 100 0
 #
-# Output: YES
-
-if __name__ == "__main__":
-    dragons()
+# Output
+# YES
+#
+# Input
+# 10 1
+# 100 100
+#
+# Output
+# NO
