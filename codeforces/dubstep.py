@@ -9,3 +9,16 @@ def dubstep_remix(s: str) -> str:
 if __name__ == "__main__":
     remix = input().strip()
     print(dubstep_remix(remix))
+
+    # Examples
+    # Input
+    # WUBWUBABCWUB
+    #
+    # Output
+    # ABC
+    #
+    # Input
+    # WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB
+    #
+    # Output
+    # WE ARE THE CHAMPIONS MY FRIEND
