@@ -17,3 +17,23 @@ if team1_count > team2_count:
     print(team1)
 else:
     print(team2)
+
+    # Examples
+    #
+    # Input
+    # 1
+    # ABC
+    #
+    # Output
+    # ABC
+    #
+    # Input
+    # 5
+    # A
+    # ABA
+    # ABA
+    # A
+    # A
+    #
+    # Output
+    # A
