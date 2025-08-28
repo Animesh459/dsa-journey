@@ -18,3 +18,17 @@ for i in range(n):
 
 if not found:
     print(-1)
+
+    # Examples
+    #
+    # Input
+    # 5
+    # 1 2 3 5 7
+    #
+    # Output
+    # 3 2 1
+    # Input
+    # 5
+    # 1 8 1 5 1
+    # Output
+    # -1
