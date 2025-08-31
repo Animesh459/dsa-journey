@@ -48,3 +48,17 @@ def solve():
 
 
 solve()
+
+# Examples
+#
+# Input
+# 1 1 1
+#
+# Output
+# 12
+#
+# Input
+# 4 6 6
+#
+# Output
+# 28
