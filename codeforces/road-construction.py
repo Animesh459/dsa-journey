@@ -40,3 +40,15 @@ def solve():
 
 # Call the function
 solve()
+
+# Examples
+#
+# Input
+# 4 1
+# 1 3
+#
+# Output
+# 3
+# 1 2
+# 4 2
+# 2 3
