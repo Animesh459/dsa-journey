@@ -30,3 +30,17 @@ def solve():
     print(decimal_value)
 
 solve()
+
+# Examples
+#
+# Input
+# ,.
+#
+# Output
+# 220
+#
+# Input
+# ++++[>,.<-]
+#
+# Output
+# 61425
