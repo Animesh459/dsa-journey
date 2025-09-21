@@ -40,3 +40,24 @@ if __name__ == "__main__":
         print(*result_coins)
     except (IOError, ValueError) as e:
         print(f"An error occurred: {e}")
+
+
+# Examples
+#
+# Input
+# 10
+#
+# Output
+# 10 5 1
+#
+# Input
+# 4
+#
+# Output
+# 4 2 1
+#
+# Input
+# 3
+#
+# Output
+# 3 1
