@@ -36,3 +36,19 @@ def solve():
 
 if __name__ == "__main__":
     solve()
+
+# Examples
+#
+# Input
+# aaabbac
+# aabbccac
+#
+# Output
+# 6
+#
+# Input
+# a
+# z
+#
+# Output
+# -1
