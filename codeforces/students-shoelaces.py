@@ -104,3 +104,34 @@ def solve():
 if __name__ == "__main__":
     # Ensure correct execution by redirecting to solve function
     solve()
+
+# Examples
+#
+# Input
+# 3 3
+# 1 2
+# 2 3
+# 3 1
+#
+# Output
+# 0
+#
+# Input
+# 6 3
+# 1 2
+# 2 3
+# 3 4
+#
+# Output
+# 2
+#
+# Input
+# 6 5
+# 1 4
+# 2 4
+# 3 4
+# 5 4
+# 6 4
+#
+# Output
+# 1
