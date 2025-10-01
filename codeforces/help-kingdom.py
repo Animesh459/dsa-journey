@@ -96,3 +96,30 @@ def solve():
 
 # Call the solve function to run the logic
 solve()
+
+
+# Examples
+#
+# Input
+# 2012
+#
+# Output
+# $2,012.00
+#
+# Input
+# 0.000
+#
+# Output
+# $0.00
+#
+# Input
+# -0.00987654321
+#
+# Output
+# ($0.00)
+#
+# Input
+# -12345678.9
+#
+# Output
+# ($12,345,678.90)
