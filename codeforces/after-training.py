@@ -1,35 +1,58 @@
+import heapq
 import math
+import sys
 
-def solve():
+
+# Set a higher recursion limit for safety, though this solution is iterative.
+# sys.setrecursionlimit(200000)
+
+def solve_simple_io():
     """
-    Reads n and m, and simulates the process of placing n balls into m baskets
-    according to Valeric's scheme.
+    Simulates the ball-sorting process using a min-heap,
+    relying on standard input() and print().
     """
     try:
-        # Read n and m
-        line = input().split()
-        if not line:
+        # Read n and m from the first line of input
+        # Note: This is simpler but can be slower than reading the whole stream.
+        try:
+            n, m = map(int, sys.stdin.readline().split())
+        except ValueError:
+            # Fallback for empty line or incorrect format
             return
-        n = int(line[0])
-        m = int(line[1])
-    except EOFError:
-        return
     except Exception:
         return
 
-    # A list to store the number of balls in each basket.
-    # basket_counts[i] will store the count for basket i+1 (0-indexed to 1-indexed).
-    basket_counts = [0] * m
-
-    # The ideal middle position is (m + 1) / 2.
-    # We use float for accurate distance calculation.
+    # 1. Pre-calculate the middle position for Rule 2
+    # Baskets are 1-indexed, so the midpoint is (m + 1) / 2.
     mid_pos = (m + 1) / 2.0
 
-    # Process each of the n balls
+    # 2. Initialize the Priority Queue (Min-Heap)
+    # Element format: (ball_count, distance_to_middle, basket_num)
+    pq = []
+    for i in range(1, m + 1):
+        basket_num = i
+        # The distance calculation is the second priority
+        distance = abs(basket_num - mid_pos)
+
+        # Initial state: 0 balls in every basket
+        heapq.heappush(pq, (0, distance, basket_num))
+
+    # 3. Process n balls
     results = []
     for _ in range(n):
-        # 1. Find the minimum number of balls currently in any basket.
-        min_balls = min(basket_counts)
+        # Pop the best basket (O(log m))
+        ball_count, distance, chosen_basket_num = heapq.heappop(pq)
 
-        # Initialize the chosen basket index and its metrics for comparison.
-        # chosen_basket_index
+        # Record the result
+        results.append(str(chosen_basket_num))
+
+        # Update and push back (O(log m))
+        new_ball_count = ball_count + 1
+        heapq.heappush(pq, (new_ball_count, distance, chosen_basket_num))
+
+    # Print all results, separated by newlines
+    print('\n'.join(results))
+
+
+if __name__ == "__main__":
+    solve_simple_io()
