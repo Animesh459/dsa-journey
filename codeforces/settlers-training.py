@@ -73,3 +73,21 @@ def solve():
 
 if __name__ == "__main__":
     solve()
+
+
+#
+# Examples
+#
+# Input
+# 4 4
+# 1 2 2 3
+#
+# Output
+# 4
+#
+# Input
+# 4 3
+# 1 1 1 1
+#
+# Output
+# 5
