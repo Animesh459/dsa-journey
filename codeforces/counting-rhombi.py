@@ -8,3 +8,18 @@ def count_rhombi(w, h):
 # Input
 w, h = map(int, input().split())
 print(count_rhombi(w, h))
+
+
+# Examples
+#
+# Input
+# 2 2
+#
+# Output
+# 1
+#
+# Input
+# 1 2
+#
+# Output
+# 0
