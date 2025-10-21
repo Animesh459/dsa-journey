@@ -14,3 +14,30 @@ def george_and_round():
 
 
 george_and_round()
+
+
+# Examples
+#
+# Input
+# 3 5
+# 1 2 3
+# 1 2 2 3 3
+#
+# Output
+# 0
+#
+# Input
+# 3 5
+# 1 2 3
+# 1 1 1 1 1
+#
+# Output
+# 2
+#
+# Input
+# 3 1
+# 2 3 4
+# 1
+#
+# Output
+# 3
