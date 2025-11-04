@@ -43,23 +43,7 @@ def solve():
     max_overlap = -1
     best_shift = (0, 0)
 
-    # Determine the search range for shifts (x, y)
-    # The shift x must be such that:
-    # 1. i + x >= 1  => x >= 1 - i. Min i is 1 (x >= 0). Max i is na (x >= 1 - na). Overall: x >= 1 - na
-    # 2. i + x <= nb => x <= nb - i. Max i is 1 (x <= nb - 1). Min i is na (x <= nb - na). Overall: x <= nb - 1
-    # Range for x: [1 - na, nb - 1]
-    # Range for y: [1 - ma, mb - 1]
 
-    # Iterate over all possible row shifts (x)
-    # Note: The problem uses 1-based indexing in the formula, but our lists use 0-based indexing.
-    # The loops below use 0-based indices i_a and j_a for table A.
-    # The mapping is: i = i_a + 1, j = j_a + 1
-    # The indices for B are: i_b = (i_a + 1) + x - 1 = i_a + x
-    #                      j_b = (j_a + 1) + y - 1 = j_a + y
-
-    # We iterate i_a from 0 to na-1, j_a from 0 to ma-1
-    # The index for B is i_b = i_a + x and j_b = j_a + y
-    # Conditions for B: 0 <= i_a + x < nb  and  0 <= j_a + y < mb
 
     min_x = 1 - na
     max_x = nb - 1
