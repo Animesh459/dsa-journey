@@ -33,3 +33,33 @@ def main():
 if __name__ == "__main__":
     main()
 
+#
+# Examples
+#
+# Input
+#
+# BBBSSC
+# 6 4 1
+# 1 2 3
+# 4
+#
+# Output
+# 2
+# Input
+#
+# BBC
+# 1 10 1
+# 1 10 1
+# 21
+#
+# Output
+# 7
+#
+# Input
+# BSC
+# 1 1 1
+# 1 1 3
+# 1000000000000
+#
+# Output
+# 200000000001
