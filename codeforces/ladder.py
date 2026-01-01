@@ -39,3 +39,24 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# Examples
+#
+# Input
+# 8 6
+# 1 2 1 3 3 5 2 1
+# 1 3
+# 2 3
+# 2 4
+# 8 8
+# 1 4
+# 5 8
+#
+# Output
+# Yes
+# Yes
+# No
+# Yes
+# No
+# Yes
