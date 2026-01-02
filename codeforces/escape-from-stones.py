@@ -22,3 +22,35 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Examples
+#
+# Input
+# llrlr
+#
+# Output
+# 3
+# 5
+# 4
+# 2
+# 1
+#
+# Input
+# rrlll
+#
+# Output
+# 1
+# 2
+# 5
+# 4
+# 3
+#
+# Input
+# lrlrr
+#
+# Output
+# 2
+# 4
+# 5
+# 3
+# 1
