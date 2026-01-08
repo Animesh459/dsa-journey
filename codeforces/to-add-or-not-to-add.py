@@ -38,3 +38,27 @@ def solve():
 # THIS LINE IS NECESSARY IN PYCHARM!
 if __name__ == "__main__":
     solve()
+
+
+# Examples
+#
+# Input
+# 5 3
+# 6 3 4 0 2
+#
+# Output
+# 3 4
+#
+# Input
+# 3 4
+# 5 5 5
+#
+# Output
+# 3 5
+#
+# Input
+# 5 3
+# 3 1 2 2 1
+#
+# Output
+# 4 2
