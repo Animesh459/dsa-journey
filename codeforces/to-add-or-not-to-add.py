@@ -16,7 +16,6 @@ def solve():
     left = 0
 
     for right in range(n):
-        # cost to make all elements in [left, right] equal arr[right]
         window_size = right - left + 1
         target = arr[right]
 
@@ -34,3 +33,8 @@ def solve():
             best_value = target
 
     print(best_count, best_value)
+
+
+# THIS LINE IS NECESSARY IN PYCHARM!
+if __name__ == "__main__":
+    solve()
