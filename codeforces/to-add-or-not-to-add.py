@@ -35,7 +35,6 @@ def solve():
     print(best_count, best_value)
 
 
-# THIS LINE IS NECESSARY IN PYCHARM!
 if __name__ == "__main__":
     solve()
 
