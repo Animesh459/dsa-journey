@@ -21,3 +21,27 @@ def solve():
 
 
 solve()
+
+
+# Examples
+#
+# Input
+# 4 3
+# 1 2 3 4
+#
+# Output
+# 4
+#
+# Input
+# 4 2
+# -3 -2 -1 0
+#
+# Output
+# 2
+#
+# Input
+# 5 19
+# 1 10 20 30 50
+#
+# Output
+# 1
