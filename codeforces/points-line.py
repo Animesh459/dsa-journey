@@ -1,8 +1,7 @@
 def solve():
-    # read first line: n and d
+
     n, d = map(int, input().split())
 
-    # read second line: coordinates
     x = list(map(int, input().split()))
 
     ans = 0
