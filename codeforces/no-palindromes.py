@@ -20,8 +20,7 @@ def next_tolerable(n, p, s):
             if not is_valid(s, i):
                 continue
 
-            # Now try to fill the rest minimalistically
-            ok = True
+ß            ok = True
             for j in range(i + 1, n):
                 placed = False
                 for x in range(ord('a'), ord('a') + p):
