@@ -43,3 +43,27 @@ if __name__ == "__main__":
     n, p = map(int, input().split())
     s = input().strip()
     print(next_tolerable(n, p, s))
+
+
+# Examples
+#
+# Input
+# 3 3
+# cba
+#
+# Output
+# NO
+#
+# Input
+# 3 4
+# cba
+#
+# Output
+# cbd
+#
+# Input
+# 4 4
+# abcd
+#
+# Output
+# abda
