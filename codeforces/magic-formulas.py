@@ -1,5 +1,4 @@
 def xor_upto(k):
-    # XOR of all numbers from 1 to k
     if k % 4 == 0:
         return k
     elif k % 4 == 1:
@@ -23,7 +22,6 @@ def solve():
     for x in p:
         ans ^= x
 
-    # Apply magic formula
     for i in range(1, n + 1):
         full = n // i
         rem = n % i
