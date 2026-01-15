@@ -19,12 +19,10 @@ def modpow(a, b):
 def solve():
     a, b, n = map(int, input().split())
 
-    # Precompute factorials
     fact = [1] * (n + 1)
     for i in range(1, n + 1):
         fact[i] = fact[i - 1] * i % MOD
 
-    # Precompute inverse factorials
     invfact = [1] * (n + 1)
     invfact[n] = modpow(fact[n], MOD - 2)
     for i in range(n, 0, -1):
