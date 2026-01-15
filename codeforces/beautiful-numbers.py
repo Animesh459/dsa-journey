@@ -43,12 +43,18 @@ def solve():
 if __name__ == "__main__":
     solve()
 
-Examples
-Input
-1 3 3
-Output
-1
-Input
-2 3 10
-Output
-165
+
+#
+# Examples
+#
+# Input
+# 1 3 3
+#
+# Output
+# 1
+#
+# Input
+# 2 3 10
+#
+# Output
+# 165
