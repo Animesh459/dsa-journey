@@ -44,11 +44,11 @@ if __name__ == "__main__":
     solve()
 
 Examples
-InputCopy
+Input
 1 3 3
-OutputCopy
+Output
 1
-InputCopy
+Input
 2 3 10
-OutputCopy
+Output
 165
