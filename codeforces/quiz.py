@@ -21,3 +21,18 @@ def solve():
 
 
 solve()
+
+#
+# Examples
+#
+# Input
+# 5 3 2
+#
+# Output
+# 3
+#
+# Input
+# 5 4 2
+#
+# Output
+# 6
