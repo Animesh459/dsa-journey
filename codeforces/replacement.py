@@ -7,7 +7,6 @@ def solve():
 
     a.sort()
 
-    # Always insert 1 at front + shift others
     result = [1] + a[:-1]
 
     print(*result)
