@@ -30,15 +30,19 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-Examples
-Input
-3 4 4 19 1
-42 3 99
-Output
-576
-InputCopy
-4 7 2 3 9
-1 2 3 4
-OutputCopy
-34
+#
+# Examples
+#
+# Input
+# 3 4 4 19 1
+# 42 3 99
+#
+# Output
+# 576
+#
+# Input
+# 4 7 2 3 9
+# 1 2 3 4
+#
+# Output
+# 34
