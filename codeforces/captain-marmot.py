@@ -63,7 +63,8 @@ solve()
 
 #
 # Examples
-# InputCopy
+
+# Input
 # 4
 # 1 1 0 0
 # -1 1 0 0
@@ -81,7 +82,8 @@ solve()
 # -1 0 0 -2
 # 3 0 0 -2
 # -1 1 -2 0
-# OutputCopy
+
+# Output
 # 1
 # -1
 # 3
