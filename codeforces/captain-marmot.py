@@ -1,7 +1,7 @@
 def rotate(x, y, a, b):
     dx = x - a
     dy = y - b
-    return a - dy, b + dx   # 90-degree CCW rotation
+    return a - dy, b + dx
 
 
 def is_square(points):
