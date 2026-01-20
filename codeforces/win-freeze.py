@@ -2,7 +2,6 @@ import sys
 import random
 import math
 
-# ---------- Pollard Rho Factorization ----------
 
 def is_prime(n):
     if n < 2:
@@ -63,7 +62,6 @@ def factor(n, res):
         factor(n // d, res)
 
 
-# ---------- Game Logic ----------
 
 def main():
     q = int(sys.stdin.readline())
@@ -103,7 +101,6 @@ def main():
             print(p * p)
             return
 
-    # Otherwise product of two primes
     print(primes[0] * primes[1])
 
 
