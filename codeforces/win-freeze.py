@@ -106,3 +106,20 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+Examples
+InputCopy
+6
+OutputCopy
+2
+InputCopy
+30
+OutputCopy
+1
+6
+InputCopy
+1
+OutputCopy
+1
+0
