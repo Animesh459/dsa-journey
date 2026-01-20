@@ -108,18 +108,24 @@ if __name__ == "__main__":
     main()
 
 
-Examples
-InputCopy
-6
-OutputCopy
-2
-InputCopy
-30
-OutputCopy
-1
-6
-InputCopy
-1
-OutputCopy
-1
-0
+# Examples
+#
+# Input
+# 6
+#
+# Output
+# 2
+#
+# Input
+# 30
+#
+# Output
+# 1
+# 6
+#
+# Input
+# 1
+#
+# Output
+# 1
+# 0
