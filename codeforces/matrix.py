@@ -46,13 +46,17 @@ solve()
 
 #
 # Examples
-# InputCopy
+
+# Input
 # 10
 # 12345
-# OutputCopy
+
+# Output
 # 6
-# InputCopy
+
+# Input
 # 16
 # 439873893693495623498263984765
-# OutputCopy
+
+# Output
 # 40
