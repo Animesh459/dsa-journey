@@ -43,3 +43,16 @@ def solve():
     print(answer)
 
 solve()
+
+#
+# Examples
+# InputCopy
+# 10
+# 12345
+# OutputCopy
+# 6
+# InputCopy
+# 16
+# 439873893693495623498263984765
+# OutputCopy
+# 40
