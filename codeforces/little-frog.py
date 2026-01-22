@@ -18,3 +18,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Examples
+# InputCopy
+# 2
+# OutputCopy
+# 1 2
+# InputCopy
+# 3
+# OutputCopy
+# 1 3 2
