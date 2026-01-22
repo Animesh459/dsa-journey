@@ -20,11 +20,15 @@ if __name__ == "__main__":
     main()
 
 # Examples
-# InputCopy
+
+# Input
 # 2
-# OutputCopy
+
+# Output
 # 1 2
-# InputCopy
+
+# Input
 # 3
-# OutputCopy
+
+# Output
 # 1 3 2
