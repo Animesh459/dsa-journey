@@ -40,11 +40,11 @@ main()
 
 #
 # Examples
-# InputCopy
+# Input
 # 2 7
-# OutputCopy
+# Output
 # 33
-# InputCopy
+# Input
 # 7 7
-# OutputCopy
+# Output
 # 7
