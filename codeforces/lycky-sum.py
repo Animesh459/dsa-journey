@@ -40,11 +40,15 @@ main()
 
 #
 # Examples
+
 # Input
 # 2 7
+
 # Output
 # 33
+
 # Input
 # 7 7
+
 # Output
 # 7
