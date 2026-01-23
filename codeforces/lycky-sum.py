@@ -37,3 +37,14 @@ def main():
     print(ans)
 
 main()
+
+#
+# Examples
+# InputCopy
+# 2 7
+# OutputCopy
+# 33
+# InputCopy
+# 7 7
+# OutputCopy
+# 7
