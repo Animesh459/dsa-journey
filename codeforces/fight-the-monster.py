@@ -40,15 +40,19 @@ print(answer)
 
 #
 # Examples
-# InputCopy
+
+# Input
 # 1 2 1
 # 1 100 1
 # 1 100 100
-# OutputCopy
+
+# Output
 # 99
-# InputCopy
+
+# Input
 # 100 100 100
 # 1 1 1
 # 1 1 1
-# OutputCopy
+
+# Output
 # 0
