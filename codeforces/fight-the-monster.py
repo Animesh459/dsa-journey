@@ -1,6 +1,5 @@
 import math
 
-# Read input
 HPY, ATKY, DEFY = map(int, input().split())
 HPM, ATKM, DEFM = map(int, input().split())
 h, a, d = map(int, input().split())
