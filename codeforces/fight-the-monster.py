@@ -37,3 +37,18 @@ for add_atk in range(0, 201):
         answer = min(answer, cost)
 
 print(answer)
+
+#
+# Examples
+# InputCopy
+# 1 2 1
+# 1 100 1
+# 1 100 100
+# OutputCopy
+# 99
+# InputCopy
+# 100 100 100
+# 1 1 1
+# 1 1 1
+# OutputCopy
+# 0
