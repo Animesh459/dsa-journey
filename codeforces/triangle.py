@@ -18,22 +18,28 @@ def main():
 if __name__ == "__main__":
     main()
 
-Examples
-InputCopy
-1 1
-OutputCopy
-NO
-InputCopy
-5 5
-OutputCopy
-YES
-2 1
-5 5
--2 4
-InputCopy
-5 10
-OutputCopy
-YES
--10 4
--2 -2
-1 2
+
+# Examples
+# Input
+# 1 1
+
+# Output
+# NO
+
+# Input
+# 5 5
+
+# Output
+# YES
+# 2 1
+# 5 5
+# -2 4
+
+# Input
+# 5 10
+
+# Output
+# YES
+# -10 4
+# -2 -2
+# 1 2
