@@ -6,10 +6,6 @@ def main():
         print("NO")
         return
 
-    # Construct using perpendicular vectors
-    # O = (0,0)
-    # A = (a, b)
-    # B = (-b, a)
     x1, y1 = 0, 0
     x2, y2 = a, b
     x3, y3 = -b, a
