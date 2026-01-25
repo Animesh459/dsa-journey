@@ -17,3 +17,23 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+Examples
+InputCopy
+1 1
+OutputCopy
+NO
+InputCopy
+5 5
+OutputCopy
+YES
+2 1
+5 5
+-2 4
+InputCopy
+5 10
+OutputCopy
+YES
+-10 4
+-2 -2
+1 2
