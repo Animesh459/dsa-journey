@@ -20,7 +20,6 @@ def main():
 
     angles.sort()
 
-    # Duplicate angles to handle circular wrap
     extended = angles + [a + 360 for a in angles]
 
     max_gap = 0.0
