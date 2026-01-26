@@ -31,3 +31,32 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Examples
+# InputCopy
+# 2
+# 2 0
+# 0 2
+# OutputCopy
+# 90.0000000000
+# InputCopy
+# 3
+# 2 0
+# 0 2
+# -2 2
+# OutputCopy
+# 135.0000000000
+# InputCopy
+# 4
+# 2 0
+# 0 2
+# -2 0
+# 0 -2
+# OutputCopy
+# 270.0000000000
+# InputCopy
+# 2
+# 2 1
+# 1 2
+# OutputCopy
+# 36.8698976458
