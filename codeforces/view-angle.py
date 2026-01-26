@@ -33,30 +33,30 @@ if __name__ == "__main__":
     main()
 
 # Examples
-# InputCopy
+# Input
 # 2
 # 2 0
 # 0 2
-# OutputCopy
+# Output
 # 90.0000000000
-# InputCopy
+# Input
 # 3
 # 2 0
 # 0 2
 # -2 2
-# OutputCopy
+# Output
 # 135.0000000000
-# InputCopy
+# Input
 # 4
 # 2 0
 # 0 2
 # -2 0
 # 0 -2
-# OutputCopy
+# Output
 # 270.0000000000
 # InputCopy
 # 2
 # 2 1
 # 1 2
-# OutputCopy
+# Output
 # 36.8698976458
