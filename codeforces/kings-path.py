@@ -14,7 +14,6 @@ def main():
         for c in range(a, b + 1):
             allowed.add((r, c))
 
-    # BFS
     queue = deque()
     queue.append((x0, y0, 0))
 
