@@ -22,18 +22,18 @@ print("NO")
 
 
 # Examples
-# InputCopy
+# Input
 # 3
 # 1 1 1
-# OutputCopy
+# Output
 # YES
-# InputCopy
+# Input
 # 6
 # 1 0 1 1 1 0
-# OutputCopy
+# Output
 # YES
-# InputCopy
+# Input
 # 6
 # 1 0 0 1 0 1
-# OutputCopy
+# Output
 # NO
