@@ -22,18 +22,24 @@ print("NO")
 
 
 # Examples
+
 # Input
 # 3
 # 1 1 1
+
 # Output
 # YES
+
 # Input
 # 6
 # 1 0 1 1 1 0
+
 # Output
 # YES
+
 # Input
 # 6
 # 1 0 0 1 0 1
+
 # Output
 # NO
