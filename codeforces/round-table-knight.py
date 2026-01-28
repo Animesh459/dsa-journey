@@ -19,3 +19,21 @@ for k in range(1, n):
             exit()
 
 print("NO")
+
+
+Examples
+InputCopy
+3
+1 1 1
+OutputCopy
+YES
+InputCopy
+6
+1 0 1 1 1 0
+OutputCopy
+YES
+InputCopy
+6
+1 0 0 1 0 1
+OutputCopy
+NO
