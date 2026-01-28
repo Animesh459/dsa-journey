@@ -5,7 +5,6 @@ for k in range(1, n):
     if n % k != 0:
         continue
 
-    # polygon must have at least 3 vertices
     if n // k < 3:
         continue
 
