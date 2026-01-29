@@ -71,25 +71,20 @@ def solve():
             if match_row[i] == -1 and dfs(i):
                 matching += 1
 
-    # Build minimum edge cover
     cover = set()
 
-    # Add all matching edges
     for i in range(n):
         if match_row[i] != -1:
             cover.add((i, match_row[i]))
 
-    # Unmatched rows
     for i in range(n):
         if match_row[i] == -1:
             cover.add((i, adj[i][0]))
 
-    # Unmatched columns
     for j in range(n):
         if match_col[j] == -1:
             cover.add((rev[j][0], j))
 
-    # Output result
     print(len(cover))
     for i, j in cover:
         print(i + 1, j + 1)
