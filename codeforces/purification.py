@@ -94,26 +94,27 @@ if __name__ == "__main__":
 
 Examples
 
-InputCopy
+Input
 3
 .E.
 E.E
 .E.
 
-OutputCopy
+Output
 1 1
 2 2
 3 3
 
-InputCopy
+Input
 3
 EEE
 E..
 E.E
 
-OutputCopy
+Output
 -1
-InputCopy
+
+Input
 5
 EE.EE
 E.EE.
@@ -121,7 +122,7 @@ E...E
 .EE.E
 EE.EE
 
-OutputCopy
+Output
 3 3
 1 3
 2 2
