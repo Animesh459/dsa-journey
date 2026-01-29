@@ -91,3 +91,34 @@ def solve():
 
 if __name__ == "__main__":
     solve()
+
+Examples
+InputCopy
+3
+.E.
+E.E
+.E.
+OutputCopy
+1 1
+2 2
+3 3
+InputCopy
+3
+EEE
+E..
+E.E
+OutputCopy
+-1
+InputCopy
+5
+EE.EE
+E.EE.
+E...E
+.EE.E
+EE.EE
+OutputCopy
+3 3
+1 3
+2 2
+4 4
+5 3
