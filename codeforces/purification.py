@@ -92,39 +92,39 @@ def solve():
 if __name__ == "__main__":
     solve()
 
-Examples
-
-Input
-3
-.E.
-E.E
-.E.
-
-Output
-1 1
-2 2
-3 3
-
-Input
-3
-EEE
-E..
-E.E
-
-Output
--1
-
-Input
-5
-EE.EE
-E.EE.
-E...E
-.EE.E
-EE.EE
-
-Output
-3 3
-1 3
-2 2
-4 4
-5 3
+# Examples
+#
+# Input
+# 3
+# .E.
+# E.E
+# .E.
+#
+# Output
+# 1 1
+# 2 2
+# 3 3
+#
+# Input
+# 3
+# EEE
+# E..
+# E.E
+#
+# Output
+# -1
+#
+# Input
+# 5
+# EE.EE
+# E.EE.
+# E...E
+# .EE.E
+# EE.EE
+#
+# Output
+# 3 3
+# 1 3
+# 2 2
+# 4 4
+# 5 3
