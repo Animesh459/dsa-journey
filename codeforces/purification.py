@@ -93,20 +93,24 @@ if __name__ == "__main__":
     solve()
 
 Examples
+
 InputCopy
 3
 .E.
 E.E
 .E.
+
 OutputCopy
 1 1
 2 2
 3 3
+
 InputCopy
 3
 EEE
 E..
 E.E
+
 OutputCopy
 -1
 InputCopy
@@ -116,6 +120,7 @@ E.EE.
 E...E
 .EE.E
 EE.EE
+
 OutputCopy
 3 3
 1 3
