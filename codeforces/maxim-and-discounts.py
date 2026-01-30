@@ -38,18 +38,22 @@ if __name__ == "__main__":
 
 
 # Examples
+
 # Input
 # 1
 # 2
 # 4
 # 50 50 100 100
+
 # Output
 # 200
+
 # Input
 # 2
 # 2 3
 # 5
 # 50 50 50 50 50
+
 # Output
 # 150
 # Input
@@ -57,5 +61,6 @@ if __name__ == "__main__":
 # 1
 # 7
 # 1 1 1 1 1 1 1
+
 # Output
 # 3
