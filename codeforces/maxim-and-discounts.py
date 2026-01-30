@@ -37,25 +37,25 @@ if __name__ == "__main__":
     solve()
 
 
-Examples
-InputCopy
-1
-2
-4
-50 50 100 100
-OutputCopy
-200
-InputCopy
-2
-2 3
-5
-50 50 50 50 50
-OutputCopy
-150
-InputCopy
-1
-1
-7
-1 1 1 1 1 1 1
-OutputCopy
-3
+# Examples
+# InputCopy
+# 1
+# 2
+# 4
+# 50 50 100 100
+# OutputCopy
+# 200
+# InputCopy
+# 2
+# 2 3
+# 5
+# 50 50 50 50 50
+# OutputCopy
+# 150
+# InputCopy
+# 1
+# 1
+# 7
+# 1 1 1 1 1 1 1
+# OutputCopy
+# 3
