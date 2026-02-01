@@ -41,11 +41,15 @@ if __name__ == "__main__":
 
 
 # Examples
-# InputCopy
+
+# Input
 # 1689
-# OutputCopy
+
+# Output
 # 1869
-# InputCopy
+
+# Input
 # 18906
-# OutputCopy
+
+# Output
 # 18690
