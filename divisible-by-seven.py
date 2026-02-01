@@ -6,7 +6,6 @@ def solve():
 
     digits = list(s)
 
-    # Remove one occurrence of 1,6,8,9
     for d in "1689":
         digits.remove(d)
 
@@ -14,7 +13,6 @@ def solve():
     non_zero = [d for d in digits if d != '0']
     non_zero.sort()
 
-    # CASE 1: no non-zero digits left
     if not non_zero:
         base = ""
         base_mod = 0
@@ -27,7 +25,6 @@ def solve():
         for c in base:
             base_mod = (base_mod * 10 + int(c)) % 7
 
-    # Try all permutations of 1,6,8,9
     for p in permutations("1689"):
         cur = base_mod
         for d in p:
