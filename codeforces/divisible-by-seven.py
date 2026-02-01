@@ -38,3 +38,14 @@ def solve():
 
 if __name__ == "__main__":
     solve()
+
+
+Examples
+InputCopy
+1689
+OutputCopy
+1869
+InputCopy
+18906
+OutputCopy
+18690
