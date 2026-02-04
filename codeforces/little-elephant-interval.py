@@ -36,12 +36,16 @@ l, r = map(int, input().split())
 print(count_upto(r) - count_upto(l - 1))
 
 
-Examples
-InputCopy
-2 47
-OutputCopy
-12
-InputCopy
-47 1024
-OutputCopy
-98
+# Examples
+#
+# Input
+# 2 47
+#
+# Output
+# 12
+#
+# Input
+# 47 1024
+#
+# Output
+# 98
