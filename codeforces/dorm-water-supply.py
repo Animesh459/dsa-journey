@@ -35,26 +35,32 @@ if __name__ == "__main__":
     solve()
 
 
-Examples
-InputCopy
-3 2
-1 2 10
-2 3 20
-OutputCopy
-1
-1 3 10
-InputCopy
-3 3
-1 2 20
-2 3 10
-3 1 5
-OutputCopy
-0
-InputCopy
-4 2
-1 2 60
-3 4 50
-OutputCopy
-2
-1 2 60
-3 4 50
+# Examples
+
+# Input
+# 3 2
+# 1 2 10
+# 2 3 20
+
+# Output
+# 1
+# 1 3 10
+
+# Input
+# 3 3
+# 1 2 20
+# 2 3 10
+# 3 1 5
+
+# Output
+# 0
+
+# Input
+# 4 2
+# 1 2 60
+# 3 4 50
+
+# Output
+# 2
+# 1 2 60
+# 3 4 50
