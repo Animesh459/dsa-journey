@@ -48,3 +48,21 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+Examples
+InputCopy
+3 1
+1
+OutputCopy
+1
+InputCopy
+4 2
+1 4
+OutputCopy
+2
+InputCopy
+11 2
+4 8
+OutputCopy
+6720
