@@ -27,23 +27,31 @@ if __name__ == "__main__":
 
 
 # Examples
-# InputCopy
+
+# Input
 # 2 2
 # 2 2
-# OutputCopy
+
+# Output
 # 8
-# InputCopy
+
+# Input
 # 3 3
 # 1 2 3
-# OutputCopy
+
+# Output
 # 27
-# InputCopy
+
+# Input
 # 2 2
 # 29 29
-# OutputCopy
+
+# Output
 # 73741817
-# InputCopy
+
+# Input
 # 4 5
 # 0 0 0 0
-# OutputCopy
+
+# Output
 # 1
