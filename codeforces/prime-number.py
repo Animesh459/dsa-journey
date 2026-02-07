@@ -24,3 +24,26 @@ def solve():
 
 if __name__ == "__main__":
     solve()
+
+
+Examples
+InputCopy
+2 2
+2 2
+OutputCopy
+8
+InputCopy
+3 3
+1 2 3
+OutputCopy
+27
+InputCopy
+2 2
+29 29
+OutputCopy
+73741817
+InputCopy
+4 5
+0 0 0 0
+OutputCopy
+1
