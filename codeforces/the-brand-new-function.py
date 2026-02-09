@@ -23,13 +23,17 @@ if __name__ == "__main__":
 
 
 # Examples
-# InputCopy
+
+# Input
 # 3
 # 1 2 0
-# OutputCopy
+
+# Output
 # 4
-# InputCopy
+
+# Input
 # 10
 # 1 2 3 4 5 6 1 2 9 10
-# OutputCopy
+
+# Output
 # 11
