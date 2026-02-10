@@ -30,3 +30,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+Examples
+InputCopy
+3 1 3 5
+OutputCopy
+2
+InputCopy
+1 4 4 7
+OutputCopy
+3
+InputCopy
+2 2 4 100
+OutputCopy
+0
